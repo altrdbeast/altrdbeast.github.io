@@ -1,151 +1,310 @@
-<!doctype html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>David Cook</title>
-<!-- Load CSS -->
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<!-- Load Icon Font -->
-<link href="css/webfont.css" rel="stylesheet" type="text/css" />
-<!-- Load jQuery library -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<!-- Load jCarousel js -->
-<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
-<!-- Load MixItUup js -->
-<script type="text/javascript" src="js/jquery.mixitup.js"></script>
-<!-- Load js -->
-<script type="text/javascript" src="js/custom.js"></script>
-</head>
-<!-- Start Body -->
-<body>
-	<!-- Start Menu -->
-	<div class="menubar" data-scroll="true">
-		<a href="#" class="logo"></a>
-		<ul class="mainmenu">
-			<li class="active"><a href="#home">Home</a></li>
-			<li><a href="#services">Services</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li><a href="#blog">Blog</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</div>
-	<!-- End Menu -->
-	
-	<!-- Start Home -->
-	<a class="scroll" id="home"></a>
-	<div class="home hero">
-		<div class="overlay"></div>
-		<div class="herowrapper">
-			<h1>David Cook<br>
-				Software Engineering Student</h1>
-		</div>
-		<a href="javascript:void(0);" class="scrolldown">
-			<h3>More about me</h3>
-			<div data-icon="&#xe017;" class="icon"></div>
-		</a>
-	</div>
-	<!-- End Home -->
+<!DOCTYPE html>
+<html lang="en">
 
-	<!-- Start BlockQuote -->
-	<div class="blockquote main">
-		<blockquote>Software Engineer Student - Currently studying through IOD</blockquote>
-	</div>
-	<!-- End BlockQuote -->
+  <head>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>Portfolio - David Cook</title>
 
-	
-	
-	<!-- Start Section Divider -->
-	<div class="section divider">
-		<h2>About Me</h2>
-		<a class="scroll" id="about"></a>
-	</div>
-	<!-- End Section Divider -->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-	<!-- Start Content -->
-	<div class="content">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
 
-		<!-- Start Person Block -->
-		<div class="person">
-			<div class="image quotefade">
-				<img src="img/SE.jpg">
-				<div class="quotehover">
-					<h5>“You have to do something you’ve never done 
-					to have something you’ve never had.”</h5>
-					<h6>Elizabeth Franklin</h6>
-				</div> -->
-			</div>
-			<div class="info">
-				<h2>David Cook</h2>
-				<h4 class="light-gray">Student</h4>
-				<p>Currently studying Software Engineering through the Institute of Data</p>
-				<a href="#" class="socialicon linkedin"></a>
-				<a href="#" class="socialicon facebook"></a>
-				<a href="#" class="socialicon twitter"></a>
-				<a href="#" class="socialicon dribbble"></a>
-				<a href="#" class="socialicon pinterest"></a>
-			</div>
-		</div>
-		<!-- Clear :) -->
-		<div class="clear"></div>
-		<!-- End Person Block -->
+  </head>
 
-	</div>
-	<!-- End Content -->
+  <body id="page-top">
 
-	<!-- Start Section Divider -->
-	<div class="section divider">
-		<h2 id="servicestitle">My Portfolio</h2>
-		<a class="scroll" id="portfolio"></a>
-	</div>
-	<!-- End Section Divider -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Certifications</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-	<!-- Start Content -->
+    <div class="container-fluid p-0">
 
-	<!-- Start Main Paragraph -->
-	<p class="main dark-gray">Some of my work...</p>
-	<!-- Start Main Paragraph -->
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">David
+            <span class="text-primary">Cook</span>
+          </h1>
+          <div class="subheading mb-5">Sydney, Australia
+            <a href="mailto:dgcook01@gmail.com">dgcook01@gmail.com</a>
+          </div>
+          <p class="mb-5">Student at IOD - currently stuyding software development.</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
 
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">To Follow</h3>
+              <div class="subheading mb-3">Company</div>
+              <p>Placeholder.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">March 2013 - Present</span>
+            </div>
+          </div>
 
-		<!-- Clear :) -->
-		<div class="clear"></div>
-	</div>
-	<!-- End Content -->
-	
-	<!-- Start Section Divider -->
-	<div class="section divider">
-		<h2 id="servicestitle">Contact Me</h2>
-		<a class="scroll" id="contact"></a>
-	</div>
-	<!-- End Section Divider -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">To Follow</h3>
+              <div class="subheading mb-3">Company</div>
+              <p>Placeholder.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">December 2011 - March 2013</span>
+            </div>
+          </div>
 
-	<!-- Start Content -->
-	<div class="content contact">
-		
-		<label>Name</label><br>
-		<input type="text" value="" class="form"><br>
-		
-		<label>Email</label><br>
-		<input type="text" value="" class="form"><br>
-		
-		<label>Message</label><br>
-		<textarea rows="3" class="form"></textarea>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">To Follow</h3>
+              <div class="subheading mb-3">Company</div>
+              <p>Placeholder.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2010 - December 2011</span>
+            </div>
+          </div>
 
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">To Follow</h3>
+              <div class="subheading mb-3">Company</div>
+              <p>Placeholder.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2008 - June 2010</span>
+            </div>
+          </div>
 
+        </div>
 
-		<!-- Clear :) -->
-		<div class="clear"></div>
-	</div>
-	<!-- End Content -->
-	
-	<footer class="footer">
-		<a href="http://ninetofive.me"><h6>© Copyright 2014 | ninetofive.me</h6></a>
-	</footer>
+      </section>
 
-</body>
-<!-- End Body -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Technology Sydney</h3>
+              <div class="subheading mb-3">Master of Information Technology</div>
+              <!-- <div>Computer Science - Web Development Track</div> -->
+              <!-- <p>GPA: 3.23</p> -->
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2006 - May 2010</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Western Sydney</h3>
+              <div class="subheading mb-3">Bachelor of Science (Physics)</div>
+              <!-- <p>GPA: 3.56</p> -->
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2002 - May 2006</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jquery"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-sass"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-less"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-wordpress"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-grunt"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-gulp"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-npm"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile-First, Responsive Design</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Browser Testing &amp; Debugging</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Functional Teams</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>Placeholder.</p>
+          <p class="mb-0">Placeholder.</p>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              To Follow</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              To Follow</li>
+            <li>
+              <!-- <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              To Follow</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              To Follow</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              2<sup>nd</sup>
+              To Follow</li>
+            <li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              To Follow</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              3<sup>rd</sup>
+              To Follow</li> -->
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
 </html>
